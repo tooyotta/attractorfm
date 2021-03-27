@@ -250,9 +250,9 @@ a:focus {
   padding: var(--spacing-10) var(--spacing-5);
   /* background img */
   background: url(images/bg.png);
-  background-position: -20%;
+  background-position: -200% -200%;
   background-repeat: no-repeat;
-  background-size: 200%;
+  background-size: 120%;
   /* background-attachment: fixed; */
 
 }
