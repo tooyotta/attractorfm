@@ -8,8 +8,7 @@ import Nav from "../components/nav"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
-  const posts = data.allMarkdownRemark.nodes
-
+  
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
