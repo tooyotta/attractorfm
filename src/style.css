@@ -249,7 +249,7 @@ a:focus {
   max-width: var(--maxWidth-wrapper);
   padding: var(--spacing-10) var(--spacing-5);
   /* background img */
-  background: url(images/bg.jpg);
+  background: url(images/bg.png);
   background-position: -20%;
   background-repeat: no-repeat;
   background-size: 200%;
