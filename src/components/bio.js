@@ -9,6 +9,13 @@ import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+
+library.add(fab)
+
+
 const Bio = () => {
   const data = useStaticQuery(graphql`
     query BioQuery {
@@ -46,8 +53,18 @@ const Bio = () => {
         <p>
           attractor.fm podcast is about 雑談<br/>
           <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            Twitter
+            <FontAwesomeIcon icon={['fab', 'twitter']} className="social-icon" />
           </a>
+          <a href={`https://instagram.com/${social?.twitter || ``}`}>
+            <FontAwesomeIcon icon={['fab', 'instagram']} className="social-icon" />
+          </a>
+          <a href={`https://facebook.com/${social?.twitter || ``}`}>
+            <FontAwesomeIcon icon={['fab', 'facebook']} className="social-icon" />
+          </a>
+          <a href="https://www.youtube.com/channel/UCh9m0sUiUZuDSK-dN8l2BDA">
+            <FontAwesomeIcon icon={['fab', 'youtube']} className="social-icon" />
+          </a>
+
         </p>
       )}
     </div>
