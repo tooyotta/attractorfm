@@ -2,13 +2,13 @@ module.exports = {
   siteMetadata: {
     title: `attractor.fm podcast`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Naoya Toyota`,
+      summary: `しがない雑談Podcast`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `世界の陰謀論をお届けしない番組です`,
+    siteUrl: `https://attractor.fm`,
     social: {
-      twitter: `attractgorfm`,
+      twitter: `attractorfm`,
     },
   },
   plugins: [
@@ -118,7 +118,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,
