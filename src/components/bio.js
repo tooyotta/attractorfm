@@ -51,20 +51,21 @@ const Bio = () => {
       />
       {author?.name && (
         <p>
-          attractor.fm podcast is about 雑談<br/>
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            <FontAwesomeIcon icon={['fab', 'twitter']} className="social-icon" />
-          </a>
-          <a href={`https://instagram.com/${social?.twitter || ``}`}>
-            <FontAwesomeIcon icon={['fab', 'instagram']} className="social-icon" />
-          </a>
-          <a href={`https://facebook.com/${social?.twitter || ``}`}>
-            <FontAwesomeIcon icon={['fab', 'facebook']} className="social-icon" />
-          </a>
-          <a href="https://www.youtube.com/channel/UCh9m0sUiUZuDSK-dN8l2BDA">
-            <FontAwesomeIcon icon={['fab', 'youtube']} className="social-icon" />
-          </a>
-
+          attractor.fm podcast is about 雑談
+          <div className="social">
+            <a href={`https://twitter.com/${social?.twitter || ``}`}>
+              <FontAwesomeIcon icon={['fab', 'twitter']} className="social-icon" />
+            </a>
+            <a href={`https://instagram.com/${social?.twitter || ``}`}>
+              <FontAwesomeIcon icon={['fab', 'instagram']} className="social-icon" />
+            </a>
+            <a href={`https://facebook.com/${social?.twitter || ``}`}>
+              <FontAwesomeIcon icon={['fab', 'facebook']} className="social-icon" />
+            </a>
+            <a href="https://www.youtube.com/channel/UCh9m0sUiUZuDSK-dN8l2BDA">
+              <FontAwesomeIcon icon={['fab', 'youtube']} className="social-icon" />
+           </a>
+          </div>
         </p>
       )}
     </div>
