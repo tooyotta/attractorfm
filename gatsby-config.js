@@ -31,11 +31,21 @@ const feedOptions = {
     }},
     {'itunes:category': [
       {_attr: {
+        text: 'News'
+      }},
+      {'itunes:category': {
+        _attr: {
+          text: 'Tech News'
+        }
+      }}
+    ]},
+    {'itunes:category': [
+      {_attr: {
         text: 'Technology'
       }},
       {'itunes:category': {
         _attr: {
-          text: 'Gadgets'
+          text: 'Science'
         }
       }}
     ]},
