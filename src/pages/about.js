@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -16,6 +17,17 @@ const BlogIndex = ({ data, location }) => {
       <Bio />
       <div className="about">
         <h2>hoge</h2>
+        <StaticImage
+        className="artwork"
+        layout="fixed"
+        formats={["PNG"]}
+        src="../images/attractorfm.png"
+        width={300}
+        height={300}
+        quality={95}
+        alt="artwork"
+      />
+        
         <p>hoge is about the human.</p>
         <h3>Radio personality</h3>
       </div>

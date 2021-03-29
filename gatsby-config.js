@@ -1,4 +1,4 @@
-// atsby-plugin-podcast-rss-feed setting
+// gatsby-plugin-podcast-rss-feed setting
 const feedOptions = {
   title: 'title',
   description: 'description',
@@ -8,7 +8,7 @@ const feedOptions = {
   docs: 'https://attractor.fm/rss/docs.html',
   managingEditor: 'Naoya Toyota',
   webMaster: 'Naoya Toyota',
-  copyright: '2021 Naoya Toyota',
+  copyright: '©2021 Naoya Toyota',
   language: 'ja',
   categories: ['Tech News','Technology','Science'],
   pubDate: 'May 20, 2019 04:00:00 GMT',
@@ -18,7 +18,7 @@ const feedOptions = {
   },
   custom_elements: [
     {'itunes:subtitle': ''},
-    {'itunes:author': 'John Doe'},
+    {'itunes:author': 'Naoya Toyota'},
     {'itunes:summary': '浅知恵雑談系ポッドキャスト'},
     {'itunes:owner': [
       {'itunes:name': 'Naoya Toyota'},
