@@ -11,7 +11,7 @@ const feedOptions = {
   copyright: '©2021 Naoya Toyota',
   language: 'ja',
   categories: ['Tech News','Technology','Science'],
-  pubDate: 'May 20, 2019 04:00:00 GMT',
+  pubDate: 'Mar 30, 2021 00:00:00 GMT',
   ttl: '60',
   custom_namespaces: {
     'itunes': 'http://www.itunes.com/dtds/podcast-1.0.dtd'
@@ -26,7 +26,7 @@ const feedOptions = {
     ]},
     {'itunes:image': {
       _attr: {
-        href: 'http://example.com/podcasts/everything/AllAboutEverything.jpg'
+        href: 'https://attractor.fm/artwork.png'
       }
     }},
     {'itunes:category': [
