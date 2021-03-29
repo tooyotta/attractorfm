@@ -17,7 +17,7 @@ const feedOptions = {
     'itunes': 'http://www.itunes.com/dtds/podcast-1.0.dtd'
   },
   custom_elements: [
-    {'itunes:subtitle': ''},
+    {'itunes:subtitle': 'attractor.fm'},
     {'itunes:author': 'Naoya Toyota'},
     {'itunes:summary': '浅知恵雑談系ポッドキャスト'},
     {'itunes:owner': [
