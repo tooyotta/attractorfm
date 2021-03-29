@@ -1,3 +1,49 @@
+// atsby-plugin-podcast-rss-feed setting
+const feedOptions = {
+  title: 'title',
+  description: 'description',
+  feed_url: 'https://attractor.fm/rss.xml',
+  site_url: 'https://attractor.fm',
+  image_url: 'https://attractor.fm/icon.png',
+  docs: 'https://attractor.fm/rss/docs.html',
+  managingEditor: 'Naoya Toyota',
+  webMaster: 'Naoya Toyota',
+  copyright: '2021 Naoya Toyota',
+  language: 'ja',
+  categories: ['Tech News','Technology','Science'],
+  pubDate: 'May 20, 2019 04:00:00 GMT',
+  ttl: '60',
+  custom_namespaces: {
+    'itunes': 'http://www.itunes.com/dtds/podcast-1.0.dtd'
+  },
+  custom_elements: [
+    {'itunes:subtitle': ''},
+    {'itunes:author': 'John Doe'},
+    {'itunes:summary': '浅知恵雑談系ポッドキャスト'},
+    {'itunes:owner': [
+      {'itunes:name': 'Naoya Toyota'},
+      {'itunes:email': 'info@attractor.fm'}
+    ]},
+    {'itunes:image': {
+      _attr: {
+        href: 'http://example.com/podcasts/everything/AllAboutEverything.jpg'
+      }
+    }},
+    {'itunes:category': [
+      {_attr: {
+        text: 'Technology'
+      }},
+      {'itunes:category': {
+        _attr: {
+          text: 'Gadgets'
+        }
+      }}
+    ]},
+    {'itunes:explicit': 'false'}
+  ]
+}
+
+// Original config
 module.exports = {
   siteMetadata: {
     title: `attractor.fm podcast`,
@@ -126,7 +172,6 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
-    
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
@@ -138,6 +183,11 @@ module.exports = {
         ],
       },
     },
-
+    {
+      resolve: `gatsby-plugin-podcast-rss-feed`,
+      options: {
+          feedOptions
+      },
+    }
   ],
 }
