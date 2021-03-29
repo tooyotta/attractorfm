@@ -1,5 +1,5 @@
 /* import font Quicksand*/
-@import url("https://use.typekit.net/dqx7qnv.css");
+@import url("https://use.typekit.net/gqs5sfb.css");
 
 
 /* CSS Custom Properties Definitions */
@@ -294,7 +294,7 @@ a:focus {
 }
 
 .header-link-home {
-  font-weight: var(--fontWeight-medium);
+  font-weight: var(--fontWeight-normal);
   /* font-family: var(--font-heading); */
   font-family: quicksand, sans-serif;
   /* font-weight: 300; */
