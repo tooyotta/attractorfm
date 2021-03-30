@@ -19,10 +19,10 @@ const feedOptions = {
   custom_elements: [
     // {'itunes:subtitle': ''},
     {'itunes:author': 'Naoya Toyota'},
-    {'itunes:summary': '浅知恵雑談系ポッドキャスト'},
+    {'itunes:summary': 'しがない浅知恵雑談系ポッドキャスト'},
     {'itunes:owner': [
       {'itunes:name': 'Naoya Toyota'},
-      {'itunes:email': 'info@attractor.fm'}
+      {'itunes:email': 'hello@attractor.fm'}
     ]},
     {'itunes:image': {
       _attr: {
