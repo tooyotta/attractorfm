@@ -50,7 +50,7 @@ const Bio = () => {
       />
       {author?.name && (
         <p>
-          attractor.fm podcast is about 雑談
+          しがない浅知恵雑談系Podcast
           <div className="social">
             <a href={`https://twitter.com/${social?.twitter || ``}`}>
               <FontAwesomeIcon icon={['fab', 'twitter']} className="social-icon" />
