@@ -1,6 +1,6 @@
 // gatsby-plugin-podcast-rss-feed setting
 const feedOptions = {
-  title: 'title',
+  title: 'attractor.fm',
   description: 'description',
   feed_url: 'https://attractor.fm/rss.xml',
   site_url: 'https://attractor.fm',
@@ -17,7 +17,7 @@ const feedOptions = {
     'itunes': 'http://www.itunes.com/dtds/podcast-1.0.dtd'
   },
   custom_elements: [
-    {'itunes:subtitle': 'attractor.fm'},
+    // {'itunes:subtitle': ''},
     {'itunes:author': 'Naoya Toyota'},
     {'itunes:summary': '浅知恵雑談系ポッドキャスト'},
     {'itunes:owner': [
