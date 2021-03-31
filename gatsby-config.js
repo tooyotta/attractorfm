@@ -19,10 +19,10 @@ const feedOptions = {
   custom_elements: [
     // {'itunes:subtitle': ''},
     {'itunes:author': 'Naoya Toyota'},
-    {'itunes:summary': '浅知恵雑談系ポッドキャスト'},
+    {'itunes:summary': 'しがない浅知恵雑談系ポッドキャスト'},
     {'itunes:owner': [
       {'itunes:name': 'Naoya Toyota'},
-      {'itunes:email': 'info@attractor.fm'}
+      {'itunes:email': 'hello@attractor.fm'}
     ]},
     {'itunes:image': {
       _attr: {
@@ -61,7 +61,7 @@ module.exports = {
       name: `Naoya Toyota`,
       summary: `しがない雑談Podcast`,
     },
-    description: `世界の陰謀論をお届けしない番組です`,
+    description: `なんとなく始めた実験的なPodcast番組です`,
     siteUrl: `https://attractor.fm`,
     social: {
       twitter: `attractorfm`,
