@@ -9,4 +9,7 @@ categories:
   - Tech
 ---
 
-this is body
+しょうもないことをしょうもなく話しました。
+
+## shownote
+* [Google.com](https://google.com)
