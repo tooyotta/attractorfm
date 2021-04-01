@@ -195,8 +195,14 @@ module.exports = {
         ],
       },
     },
+    // {
+    //   resolve: `gatsby-plugin-podcast-rss-feed`,
+    //   options: {
+    //       feedOptions
+    //   },
+    // },
     {
-      resolve: `gatsby-plugin-podcast-rss-feed`,
+      resolve: `gatsby-plugin-for-podcast`,
       options: {
           feedOptions
       },
