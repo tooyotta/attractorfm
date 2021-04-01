@@ -9,7 +9,8 @@ import Nav from "../components/nav"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
-  
+  const posts = data.allMarkdownRemark.nodes
+
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
@@ -30,10 +31,25 @@ const BlogIndex = ({ data, location }) => {
         
         <p>hoge is about the human.</p>
         <h3>Radio personality</h3>
+        
       </div>
+
+      {posts.map(post => {
+          const title = post.frontmatter.title || post.fields.slug
+          return (
+            <ul>
+              <li>
+                <small>{post.frontmatter.author}</small>
+              </li>
+            </ul>
+          )
+        })}
+
     </Layout>
   )
 }
+
+
 
 export default BlogIndex
 

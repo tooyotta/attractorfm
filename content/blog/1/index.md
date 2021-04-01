@@ -7,6 +7,9 @@ url: example.com/mp3
 size: 206820339
 categories:
   - Tech
+author: 
+  - Naoya Toyota
+  - すごいゲスト
 ---
 
 しょうもないことをしょうもなく話しました。
